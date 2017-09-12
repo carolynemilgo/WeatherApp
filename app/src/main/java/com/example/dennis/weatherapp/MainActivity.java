@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 //Defines what happens when the button is clicked
                 String location = mEditText.getText().toString();
-                Intent intent = new Intent(MainActivity.class, Weather.class);
+                Intent intent = new Intent(MainActivity.this, Weather.class);
                 intent.putExtra("location", location);
                 startActivity(intent);
             }
