@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dennis.weatherapp.MainActivity">
+<TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:textSize="20dp"
+    android:id="@+id/thisText"
+    android:text="Muturia Weather app"
+    android:gravity="center_horizontal"></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myEditText"
+        android:hint="Enter the location"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"></EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/myButton"
+        android:text="Get Weather"
+        android:shadowColor="@color/colorPrimary"
+        android:layout_below="@+id/myEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"></Button>
+
+</RelativeLayout>
