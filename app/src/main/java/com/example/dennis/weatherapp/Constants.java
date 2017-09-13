@@ -7,4 +7,5 @@ package com.example.dennis.weatherapp;
 public class Constants {
     public static final String OPEN_WEATHER = BuildConfig.OPEN_WEATHER;
     public static final String OPEN_WEATHER_BASE_URL = "api.openweathermap.org/data/2.5/weather?q=location";
+    public static final String OPEN_WEATHER_QUERY_PARAMETER = "location";
 }

@@ -5,14 +5,16 @@ import android.nfc.Tag;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
 public class Weather extends AppCompatActivity {
-    public static final String TAG = Weather.class.getSimpleName();
+
     //Create the binds here
-    @Bind(R.id.weatherId) EditText locationText;
+    @Bind(R.id.weatherId)
+    TextView locationText;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
